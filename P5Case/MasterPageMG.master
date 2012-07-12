@@ -1,0 +1,94 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPageMG.master.vb" Inherits="MasterPageMG" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Michael Germino - Sports Pro</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+        <style type="text/css">
+        .style2
+        {
+            width: 100%;
+        }
+        .style4
+        {
+            font-family: 60px;
+            font-size: 60px;
+            color: #0066FF;
+        }
+        .style5
+        {
+            font-family: 60px;
+            font-size: 30px;
+            color: #FF3300;
+        }
+            .style7
+            {
+                background-color: #FFFF00;
+            }
+            .style8
+            {
+                background-color: #FFFFFF;
+            }
+            .style9
+            {
+                width: 145px;
+            }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <strong><span class="style4"><em>SportsPro<br />
+        </em></span><span class="style5">Sports management software for the sports 
+        enthusiast<br />
+        </span>
+        <table class="style2">
+            <tr>
+                <td class="style9" valign="top" rowspan="3">
+                    <asp:Menu ID="Menu2" runat="server" BackColor="#B5C7DE" 
+                        DataSourceID="SiteMapDataSource1" DynamicHorizontalOffset="2" 
+                        Font-Names="Verdana" Font-Size="0.8em" ForeColor="#284E98" 
+                        StaticDisplayLevels="2" StaticSubMenuIndent="10px">
+                        <DynamicHoverStyle BackColor="#284E98" ForeColor="White" />
+                        <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <DynamicMenuStyle BackColor="#B5C7DE" />
+                        <DynamicSelectedStyle BackColor="#507CD1" />
+                        <StaticHoverStyle BackColor="#284E98" ForeColor="White" />
+                        <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <StaticSelectedStyle BackColor="#507CD1" />
+                    </asp:Menu>
+                    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+                </td>
+                <td class="style7" valign="top">
+
+                <br />
+                    <asp:SiteMapPath ID="SiteMapPath1" runat="server" Font-Names="Verdana" 
+                        Font-Size="0.8em" PathSeparator=" : ">
+                        <CurrentNodeStyle ForeColor="#333333" />
+                        <NodeStyle Font-Bold="True" ForeColor="#990000" />
+                        <PathSeparatorStyle Font-Bold="True" ForeColor="#990000" />
+                        <RootNodeStyle Font-Bold="True" ForeColor="#FF8000" />
+                    </asp:SiteMapPath>
+                </td>
+            </tr>
+            <tr>
+                <td class="style8">
+        <asp:ContentPlaceHolder id="cphMGMain" runat="server">
+
+        </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td class="style8">
+                    <asp:Label ID="lblMGMessage" runat="server"></asp:Label>
+                </td>
+            </tr>
+        </table>
+        </strong><br />
+    </div>
+    </form>
+</body>
+</html>

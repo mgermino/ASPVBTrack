@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="Default.aspx" title="Home" description="Home Page">
+
+        <siteMapNode url="CustomerSupportMG.aspx" title="Customer Support"  description="Customer Support">
+            <siteMapNode url="ProductRegistrationMG.aspx" title="Register Products"  description="register Products" >
+            </siteMapNode>
+            <siteMapNode url="SurveyMG.aspx" title="Complete Customer Survey"  description="Complete Customer Survey" >
+            </siteMapNode>
+            <siteMapNode url="ContactUsMG.aspx" title="Contact Us"  description="Contact Us" >
+            </siteMapNode>
+        </siteMapNode>
+
+        <siteMapNode url="TechnicianSupportMG.aspx" title="Technician Support"  description="Technician Support" >
+            <siteMapNode url="CustomerIncidentDisplayMG.aspx" title="Display Customer Incidents"  description="Display Customer Incidents" >
+            </siteMapNode>
+            <siteMapNode url="IncidentUpdateMG.aspx" title="Update Incidents"  description="Update Incidents" >
+            </siteMapNode>
+        </siteMapNode>
+
+        <siteMapNode url="AdministrationMG.aspx" title="Administration"  description="Administration">
+            <siteMapNode url="ProductMaintenanceMG.aspx" title="Maintain Products"  description="Maintain Products" >
+            </siteMapNode>
+            <siteMapNode url="CustomerMaintenanceMG.aspx" title="Maintain Customers"  description="Maintain Customers" >
+            </siteMapNode>
+            <siteMapNode url="TechnicianMaintenanceMG.aspx" title="Maintain Technicians"  description="Maintain Customers" >
+            </siteMapNode>
+            <siteMapNode url="IncidentCreationMG.aspx" title="Create Incidents"  description="Maintain Customers" >
+            </siteMapNode>
+            <siteMapNode url="IncidentAssignmentMG.aspx" title="Assign Incidents"  description="Maintain Customers" >
+            </siteMapNode>
+            <siteMapNode url="DisplayIncidentsMG.aspx" title="Display Technician incidents"  description="Maintain Customers" >
+            </siteMapNode>
+            <siteMapNode url="CustomerDisplayMG.aspx" title="Display Customers"  description="Maintain Customers" >
+            </siteMapNode>
+        </siteMapNode>
+
+        <siteMapNode url="MapMG.aspx" title="Site Map"  description="A map of all the pages on this site" >
+        </siteMapNode>
+
+    </siteMapNode>
+</siteMap>

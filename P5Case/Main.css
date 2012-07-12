@@ -1,0 +1,67 @@
+﻿/* The styles for the elements */
+body
+{
+    border: thin solid #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    margin: 0;
+    padding: 0;
+    background-color: #D3D3D3;
+}
+h1 {
+            font-size: large;
+            color: #FF0000;
+            text-align: center;
+        }
+
+/* The style for the page division */
+#page 
+{
+    width: 500px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: White;
+}
+
+/* The style for the paragraphs that contain 
+the text that identifies the server controls */
+.text
+{
+    float: left;
+    width: 274px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+/* The styles for the paragraphs that contain
+the server controls */
+#entry
+{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.validator
+{
+    font-size: 95%;
+    color: Red;
+    margin-left: 5px;
+}
+.label
+{
+    height: 1em;
+    margin-top: 0px;
+}
+#button
+{
+    margin: 15px 0 0 125px;
+}
+
+/* The styles for the server controls */
+.txtSubtotal
+{
+    width: 106px;
+}
+.btnCalculate
+{
+    width: 106px;
+}
